@@ -51,10 +51,16 @@ int main()
 
 
     int number, num1, num2;
-    printf("\nInput two numbers for LCM and HCF : ");
-    scanf("%d %d", &num1, &num2);
+    //printf("\nInput two numbers for LCM and HCF : ");
+    //scanf("%d %d", &num1, &num2);
 
-    calculate_LCM(num1, num2);
+    calculate_LCM(1, 23);
+    calculate_LCM(1728 , 1324);
+    calculate_LCM(2468 , 9046);
+    calculate_LCM(7833 & 8939);
+    calculate_LCM(1,1);
+    calculate_LCM(-234 , -980);
+    calculate_LCM(-7492 , 21);
 
     number = 4;
     expectedFactorCount = 2;
